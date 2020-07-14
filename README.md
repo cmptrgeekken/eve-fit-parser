@@ -1,7 +1,7 @@
 Eve Fit Export Parser
 ========================
 
-This module takes Eve Online exports (via Copy to Clipboard) and parses them into an iterable format with slot information. Per [Eve's documentation](https://www.eveonline.com/article/import-export-fittings) (and based off some additional experimenting), the EFT export has the following structure:
+This module takes Eve Online exports (via `Copy to Clipboard`) and parses them into an iterable format with slot information. Per [Eve's documentation](https://www.eveonline.com/article/import-export-fittings) (and based off some additional experimenting), the Eve Fit export has the following structure:
 
 1. Ship or Structure Type and Fit Name (sample: `[Ragnarok,KenGeorge's Ragnarok]`)
 1. Low slot modules
